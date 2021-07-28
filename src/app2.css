@@ -1,0 +1,18 @@
+#app2 .tab-bar{
+    display: flex;
+    flex-wrap: wrap;
+}
+#app2 .tab-bar > li {
+    border: 1px solid grey;
+    width: 50%;
+}
+#app2 .tab-bar > li.selector{
+    background: yellow;
+    color: red;
+}
+#app2 .tab-content > li{
+    display: none;
+}
+#app2 .tab-content >li.active{
+    display: block;
+}

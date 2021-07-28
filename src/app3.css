@@ -1,0 +1,17 @@
+#app3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#app3 .square{
+    border:1px solid black;
+    height: 5vw;
+    width: 5vw;
+    transition: all 2s;
+    background: aqua;
+}
+#app3 .square.active{
+    transform: translateX(15vw);
+    background: aliceblue;
+    border-radius: 50%;
+}
